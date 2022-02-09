@@ -88,7 +88,7 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV["MY_APP_DATABASE_URL"] %>
+  url: <%= ENV["DATABASE_URL"] %>
   # database: barpay_api_production
   # username: barpay_api
   # password: <%= ENV["BARPAY_API_DATABASE_PASSWORD"] %>
